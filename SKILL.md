@@ -1,6 +1,6 @@
 ---
 name: tcms-planner
-version: "1.1.0"
+version: "1.1.1"
 description: |
   Content topic-planning agent. Generates structured topic briefs from knowledge-base updates, competitor signals, the content calendar, and performance data.
   Does topic judgment and brief output only — not content creation.
@@ -16,6 +16,16 @@ allowed-tools:
   - replace_in_file
   - search_content
   - list_dir
+metadata:
+  openclaw:
+    tags:
+      - content-marketing
+      - content-strategy
+      - planning
+      - editorial-calendar
+      - topic-research
+      - tech-product
+      - b2b
 disable: false
 ---
 
