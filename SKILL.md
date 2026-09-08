@@ -2,7 +2,7 @@
 slug: tcms-planner
 displayName: Tcms Planner
 name: tcms-planner
-version: "1.1.5"
+version: "1.1.6"
 not_for:
   - Content creation or drafting (brief output only)
   - Portfolio-level topic evaluation with scoring gates (use a portfolio skill)
@@ -14,11 +14,11 @@ description: |
 description_zh: "内容选题规划器：从知识库更新、竞品信号、内容日历与绩效数据生成结构化选题简报，只做选题判断与简报输出，不做内容创作。"
 
 read_when:
-  - 选题
-  - 本周内容
-  - content plan
-  - 选题建议
-  - 内容规划
+  - "生成选题简报或选题建议"
+  - "规划本周/本月内容选题"
+  - "从知识库更新或竞品动态里找选题"
+  - "review content calendar for topic gaps"
+  - "generate a topic brief from knowledge-base updates"
 allowed-tools:
   - read_file
   - write_to_file
