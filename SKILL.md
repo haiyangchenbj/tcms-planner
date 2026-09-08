@@ -1,9 +1,18 @@
 ---
+slug: tcms-planner
+displayName: Tcms Planner
 name: tcms-planner
-version: "1.1.1"
+version: "1.1.5"
+not_for:
+  - Content creation or drafting (brief output only)
+  - Portfolio-level topic evaluation with scoring gates (use a portfolio skill)
+  - Editing or approving the content calendar (advisory briefs only)
+  - Trend reporting without a topic-selection decision
 description: |
   Content topic-planning agent. Generates structured topic briefs from knowledge-base updates, competitor signals, the content calendar, and performance data.
   Does topic judgment and brief output only — not content creation.
+description_zh: "内容选题规划器：从知识库更新、竞品信号、内容日历与绩效数据生成结构化选题简报，只做选题判断与简报输出，不做内容创作。"
+
 read_when:
   - 选题
   - 本周内容
