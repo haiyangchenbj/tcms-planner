@@ -2,7 +2,7 @@
 slug: tcms-planner
 displayName: Tcms Planner
 name: tcms-planner
-version: "1.1.6"
+version: "1.1.7"
 not_for:
   - Content creation or drafting (brief output only)
   - Portfolio-level topic evaluation with scoring gates (use a portfolio skill)
