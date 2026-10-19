@@ -2,7 +2,7 @@
 slug: tcms-planner
 displayName: Tcms Planner
 name: tcms-planner
-version: "1.1.7"
+version: "1.1.8"""
 not_for:
   - Content creation or drafting (brief output only)
   - Portfolio-level topic evaluation with scoring gates (use a portfolio skill)
@@ -129,6 +129,8 @@ After a topic brief is produced it **must be confirmed by a human** before enter
 2. **No auto-trigger of downstream.** The brief must be human-confirmed.
 3. **Don't recommend when material is insufficient.** If the corresponding knowledge-base entry is too thin, mark "insufficient material, suggest supplementing the knowledge base first".
 4. **Internal cases default to redaction requirement.** Briefs involving internal-source customers must mark 📋.
+
+5. **Dedupe before recommending.** Check the topic against the last 12 published or planned items; a duplicate or near-duplicate is flagged, not recommended.
 
 ## Failure handling
 
