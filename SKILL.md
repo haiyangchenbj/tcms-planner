@@ -2,7 +2,7 @@
 slug: tcms-planner
 displayName: Tcms Planner
 name: tcms-planner
-version: "1.1.8"""
+version: "1.1.9"
 not_for:
   - Content creation or drafting (brief output only)
   - Portfolio-level topic evaluation with scoring gates (use a portfolio skill)
@@ -102,7 +102,7 @@ Based on signal sources and context, generate 1-3 topic suggestions. Each output
 ### Step 4: [LLM] Topic sanity check
 
 - [ ] Is the product within the current priority scope?
-- [ ] Does it duplicate content published/scheduled in the last 2 weeks?
+- [ ] Does it duplicate any of the last 12 published or planned items?
 - [ ] Is material sufficient (a corresponding knowledge-base entry exists)?
 - [ ] Is the channel reasonable?
 
