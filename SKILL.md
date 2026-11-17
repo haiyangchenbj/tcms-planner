@@ -2,7 +2,7 @@
 slug: tcms-planner
 displayName: Tcms Planner
 name: tcms-planner
-version: "1.1.9"
+version: "1.1.10"
 not_for:
   - Content creation or drafting (brief output only)
   - Portfolio-level topic evaluation with scoring gates (use a portfolio skill)
@@ -66,6 +66,7 @@ signal input
 1. Knowledge-base recent updates — check file modification times, identify recently updated product sections
 2. Content calendar — read the current month's schedule, find content due this/next week
 3. Published-content index — check which topics already have drafts and which are still missing
+4. Competitor signals — check recent competitor moves (launch / pricing / funding) for a differentiation-response topic (routing branch above)
 
 > The paths above must be configured per the actual project directory.
 
